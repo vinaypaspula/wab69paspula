@@ -4,8 +4,8 @@ The purpose of this repo is to become familiar with using pug templates to dynam
 
 Hosted at [https://wab69paspula.herokuapp.com/](https://wab69paspula.herokuapp.com/)
 
-Class name: Books
-Attributes:
-Name (String)
-Author (String)
-Price (Numer)
+Class name: Books<br>
+Attributes:<br>
+Name (String)<br>
+Author (String)<br>
+Price (Numer)<br>
