@@ -1,4 +1,11 @@
 extends layout
 
 block content
+  div(class="container-fluid")
   h1= title
+  - var result=[{name:"Klara and the Sun",author:"Kazuo Ishiguro",price:20.59},{name:"The Four Winds",author:"Kristin Hannah",price:17.39},{name:"Detransition, Baby",author:"Torrey Peters",price:23.99}] 
+    div(class="row")
+      each form in result
+        div(class = "col-sm-2") #{form.name}
+        div(class = "col-sm-2") #{form.author}
+        div(class = "col-sm-2") #{form.price}
