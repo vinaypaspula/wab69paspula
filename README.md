@@ -8,4 +8,4 @@ Class name: Books<br>
 Attributes:<br>
 Name (String)<br>
 Author (String)<br>
-Price (Numer)<br>
+Price (Number)<br>

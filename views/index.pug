@@ -3,7 +3,7 @@ extends layout
 block content
   h1= title
   p The purpose of this application is to become familiar with using pug templates to dynamically generate web pages on the server side.
-  button(type="button", class="btn btn-primary" onClick="method()") Press Me
+  button(type="button", class="btn btn-primary" onClick="update()") Press Me
   div#target
 
   a(href='books') Books
@@ -11,7 +11,7 @@ block content
 
   script.
     var client_count = 0
-    function method(){
+    function update(){
       client_count++
       console.log(client_count)
       document.getElementById("target").innerHTML = "Value now " +client_count;
